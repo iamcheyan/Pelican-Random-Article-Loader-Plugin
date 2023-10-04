@@ -17,11 +17,11 @@ Please note that when browsing locally, there may be cross-domain issues prevent
 
 # Usage
 -----
-Copy the random_articles folder to the plugins directory of your Pelican project. 
+Copy the project folder to the plugin directory of Pelican. 
 Copy the random_articles/static folder to the theme directory of your Pelican project. 
 In the templates/base.html file, include the newly added JavaScript code: 
 
-把 random_articles 文件夹拷贝到 pelican 的插件目录下 
+把本项目文件夹拷贝到 pelican 的插件目录下 
 把 random_articles/static 文件夹拷贝到 pelican 的主题目录下 
 在 templates/base.html 中引入刚刚添加的 js 
 
