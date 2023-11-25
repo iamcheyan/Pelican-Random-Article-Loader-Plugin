@@ -11,7 +11,6 @@ Please note that when browsing locally, there may be cross-domain issues prevent
 该文件包含了全部日志的标题和链接
 再通过 random_articles.js 随机调用 10 篇文章  
 插入到页面的 #random-articles 中，实现每次刷新页面加载不同文章的功能  
-注意：在本地浏览时因为涉及到跨域问题，所以 js 无法在本地加载，需要通过 web 环境访问才能看到效果
 
 [效果预览：http://iamcheyan.com/app/pelican/blog](http://iamcheyan.com/app/pelican/blog/)
 
@@ -38,6 +37,7 @@ In the templates/include/sidebar.html file, add the following HTML structure:
 ```
 
 # Licence
-GNU AFFERO GENERAL PUBLIC LICENSE Version 3
+https://github.com/iamcheyan/Pelican-Random-Article-Loader-Plugin.git
 
+GNU AFFERO GENERAL PUBLIC LICENSE Version 3
 Copyright (c) cheyan (http://iamcheyan.com)
